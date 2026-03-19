@@ -23,8 +23,20 @@ To write a Python function to accept a string, identify a word to be replaced, a
 ### PROGRAM
 
 ```
+def convert(n):
+s=""
+for i in n:
+if i.islower():
+s = s + i.upper()
+elif i.isupper():
+s = s + i.lower()
+else:
+s = s + "bb"
+print(s)
 ```
 
 ### OUTPUT
+<img width="833" height="323" alt="image" src="https://github.com/user-attachments/assets/2d0184c3-783f-4595-ae75-4d44977c1e28" />
 
 ### RESULT
+Thus the Python program is successfully transformed the string according to the specified rules.
