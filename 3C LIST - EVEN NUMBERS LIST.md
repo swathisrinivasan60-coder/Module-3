@@ -24,8 +24,17 @@ To write a Python function that accepts a number **N** and creates a list contai
 ### PROGRAM
 
 ```
+n=eval(input())
+l=[]
+for i in range (n):
+l.append(int(input()))
+print("List =",l)
+print("The maximum value is",max(l))
 ```
 
 ### OUTPUT
+<img width="897" height="427" alt="image" src="https://github.com/user-attachments/assets/49d37079-cd7a-474b-9ebb-5bb22c3bf123" />
+
 
 ### RESULT
+Thus the Python program to find the maximum value from a list using the max() function was executed successfully and the output was verified.
